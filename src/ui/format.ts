@@ -45,7 +45,7 @@ export function icsFor(v: { id: string; start: number; end: number; title: strin
   const stamp = (t: number) => new Date(t).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
   const line = (s: string) => s.replace(/[,;\\]/g, (c) => `\\${c}`).replace(/\n/g, '\\n');
   return [
-    'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Bridge Harbour//Telehealth Demo//EN', 'BEGIN:VEVENT',
+    'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Relevanz Technologies//Telehealth Demo//EN', 'BEGIN:VEVENT',
     `UID:${v.id}@telehealth-demo`, `DTSTAMP:${stamp(Date.now())}`, `DTSTART:${stamp(v.start)}`, `DTEND:${stamp(v.end)}`,
     `SUMMARY:${line(v.title)}`, `LOCATION:${line(v.location)}`, `DESCRIPTION:${line(v.details)}`,
     'BEGIN:VALARM', 'TRIGGER:-PT2H', 'ACTION:DISPLAY', 'DESCRIPTION:Visit reminder', 'END:VALARM',

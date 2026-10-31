@@ -2,7 +2,7 @@
   "name": "telehealth-portal-demo",
   "private": true,
   "version": "1.0.0",
-  "description": "Patient portal and telehealth demo: appointment booking with conflict checks, reminders, records merged from multiple clinics, and a virtual waiting room. Open-source demo by Bridge Harbour IT Solutions.",
+  "description": "Patient portal and telehealth demo: appointment booking with conflict checks, reminders, records merged from multiple clinics, and a virtual waiting room. Open-source demo by Relevanz Technologies.",
   "type": "module",
   "license": "MIT",
   "scripts": {

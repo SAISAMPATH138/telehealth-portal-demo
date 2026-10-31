@@ -6,7 +6,7 @@ A patient portal covering appointment booking with real scheduling rules, automa
 
 ![Patient portal home](docs/screenshot.png)
 
-> **This is an open-source demo, not client code.** Bridge Harbour IT Solutions built it to show how we approach telehealth projects like the one in our *Patient Portal & Telehealth App* case study. Client code stays private. Every patient, clinician, clinic and record here is fictional, and data is stored only in your browser. This is not a medical device or a compliance-certified system.
+> **This is an open-source demo, not client code.** Relevanz Technologies built it to show how we approach telehealth projects like the one in our *Patient Portal & Telehealth App* case study. Client code stays private. Every patient, clinician, clinic and record here is fictional, and data is stored only in your browser. This is not a medical device or a compliance-certified system.
 
 ## What it shows
 
